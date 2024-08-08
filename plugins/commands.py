@@ -44,10 +44,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             ],[
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/FilmStudiohub2'),
-            InlineKeyboardButton('Web ;)'' ✨', url='https:filmxyz.site'),
-            ],
-            [
+            InlineKeyboardButton('𝘜𝘱𝘥𝘢𝘵𝘦𝘴', url='https://t.me/FilmStudiohub2'),
+            ],[
+            InlineKeyboardButton('𝘚𝘶𝘱𝘱𝘰𝘳𝘵', url='https://t.me/filmstudodl'),
+            InlineKeyboardButton('𝘞𝘦𝘣', url='https://filmxyz.site'),
+            ],[
+            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
+            ],[
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,10 +93,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             ],[
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/FilmStudiohub2'),
-            InlineKeyboardButton('Web ;)'' ✨', url='https:filmxyz.site'),
-            ],
-            [
+            InlineKeyboardButton('𝘜𝘱𝘥𝘢𝘵𝘦𝘴', url='https://t.me/FilmStudiohub2'),
+            ],[
+            InlineKeyboardButton('𝘚𝘶𝘱𝘱𝘰𝘳𝘵', url='https://t.me/filmstudodl'),
+            InlineKeyboardButton('𝘞𝘦𝘣', url='https://filmxyz.site'),
+            ],[
+            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
+            ],[
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
