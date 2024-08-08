@@ -49,8 +49,6 @@ async def start(client, message):
             InlineKeyboardButton('𝘚𝘶𝘱𝘱𝘰𝘳𝘵', url='https://t.me/filmstudodl'),
             InlineKeyboardButton('𝘞𝘦𝘣', url='https://filmxyz.site'),
             ],[
-            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
-            ],[
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -97,8 +95,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('𝘚𝘶𝘱𝘱𝘰𝘳𝘵', url='https://t.me/filmstudodl'),
             InlineKeyboardButton('𝘞𝘦𝘣', url='https://filmxyz.site'),
-            ],[
-            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
             ],[
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
