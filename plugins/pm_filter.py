@@ -764,9 +764,8 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         cap = f"Hᴇʀᴇ ɪꜱ ᴡʜᴀᴛ ɪ ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}"
-    if imdb and imdb.get('poster'):
         try:
-            hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+            hehe =  await message.caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
             if AUTO_DELETE:
                 await asyncio.sleep(AUTO_DELETE_SECONDS)
